@@ -13,21 +13,18 @@ export const LoginScreen = () => {
                     name="email"
                     autocomplete="off"
                 />
-
                 <input
                     className="auth__input"
                     type="password"
                     placeholder="Password"
                     name="password"
                 />
-
                 <button 
                     type="submit"
                     className="btn btn-primary btn-block"
                 >
                     Enter
                 </button>
-
                 <div className="auth__social-networks">
                     <p>Login with social networks</p>
                     <div 
@@ -43,14 +40,11 @@ export const LoginScreen = () => {
 
                     <Link 
                         to="/auth/register"
+                        className="link"
                     >
                         Create new account
-                        
                     </Link>
                 </div>
-
-
-
             </form>
         </>
     )
