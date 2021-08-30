@@ -11,7 +11,7 @@ export const RegisterScreen = () => {
                     type="text"
                     placeholder="Email"
                     name="email"
-                    autocomplete="off"
+                    autoComplete="off"
                 />
 
                 <input
