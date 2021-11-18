@@ -6,8 +6,7 @@ import { NothingSelected } from './NothingSelected'
 
 export const JournalScreen = () => {
 
-    const {active} = useSelector( state => state)
-
+    const {active} = useSelector( state => state.notes)
 
     return (
         <div className="journal__main-content">
@@ -19,8 +18,6 @@ export const JournalScreen = () => {
                     ( active ? <NoteScreen/> :  <NothingSelected/>)
                 }
 
-              
-                
             </main>
         </div>
     )
